@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<style>
+</style>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Berma Yoga</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image/png" href="image/logo.png">
+  </head>
+
+  <body>
+    <header>
+        <figure class="logo">
+          <img src="image/logo.png" width="70" height="45" alt="Logotipo" alt="Logo-Berma">
+        </figure>
+        <nav class="navMenu">
+          <ul>
+            <li class="separador"><a href="#">Cursos</a></li>
+            <li class="separador"><a href="#">Maestros</a></li>
+            <li class="separador"><a href="#">Horarios</a></li>
+            <li><a href="#">Costos</a></li>
+          </ul>
+          <ul class="login">
+            <li>
+              <button class="btnLogin">
+                Iniciar Sesión
+              </button>
+            </li>
+          </ul>
+        </nav>
+    </header>
+
+    <section> <!--Modulo articulo-->
+      <div class="contenedor">
+        <h1>TITULO</h1>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sint mollitia perspiciatis,
+          quos minus fugit non accusamus magni quidem soluta quas perferendis aut unde quisquam qui. Quae sapiente voluptatibus atque.</h5>
+        <img src="image/noticia11.jpg" alt="titulo imagen">
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer contenedor">
+          <div class="contacto">
+            <img src="image/logo.png" alt="segundo logo" >
+            <div class="telefono">
+              <strong>Teléfono: </strong>
+              <span>81818181</span>
+            </div>
+            <div class="E-mail: ">
+              <strong>E-mail: </strong>
+              <span>berma@hotmail.com</span>
+            </div>
+          </div>
+          <form action="#" class="formulario">
+            <div class="col1">
+              <label for="nombre">Nombre: </label>
+              <input type="text" required id="nombre" name="nombre">
+              <label for="email">E-mail: </label>
+              <input type="email" required id="email" name="email">
+              <div class="sexo">
+                <label for="mujer">
+                  <input type="radio" checked id="mujer" name="sexo" value="mujer"> Mujer
+                </label>
+                <label for="hombre">
+                  <input type="radio" id="hombre" name="sexo" value="hombre"> Hombre
+                </label>
+              </div>
+              <div class="intereses">
+                <label for="cotizacion">
+                  <input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"> Cotización
+                </label>
+                <label for="reclamos">
+                  <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+                </label>
+                <label for="comentarios">
+                  <input type="checkbox" id="comentarios" name="intereses" value="comentarios"> Comentarios
+                </label>
+                <label for="otros">
+                  <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+                </label>
+              </div>
+            </div>
+            <div class="col2">
+              <label for="comentarios"> Comentarios</label>
+              <textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+              <input type="submit" value="Enviar" class="button">
+            </div>
+          </form>
+      </div>
+  </body>
+</html>
