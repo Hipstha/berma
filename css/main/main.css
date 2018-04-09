@@ -72,3 +72,251 @@
 .maestro .content-maestro .datosMaestro .otrosDatos .dato {
   font-weight: 400;
 }
+
+.titleCursos {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.nombreCurso {
+  font-size: 2rem;
+  width: 22rem;
+  margin-top: -0.1rem;
+  margin-bottom: -0.1rem;
+}
+
+.descripcionCurso {
+  border-bottom: 1px solid grey;
+  width: 22rem;
+}
+
+.horariosDelCurso {
+  border-bottom: 1px solid grey;
+  width: 22rem;
+}
+
+.costos p.precio {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.costos img.banderaLogo {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+.costos .tiposPlanes {
+  display: flex;
+  position: relative;
+  left: 5rem;
+}
+.costos .tiposPlanes .beneficios {
+  margin-top: 3.5rem;
+}
+.costos .tiposPlanes .beneficios .beneficioDescripcion {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-left: 1rem;
+  color: #6b3467;
+}
+.costos .tiposPlanes .beneficios ul.tipoBeneficio {
+  padding-left: 0rem !important;
+}
+.costos .tiposPlanes .beneficios ul.tipoBeneficio li.beneficio {
+  display: block;
+  border-bottom: 1px solid #ababab;
+  padding-top: 0.4rem;
+}
+.costos .tiposPlanes .beneficios ul.tipoBeneficio li.beneficio p.beneficioText {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.costos .tiposPlanes .beneficios ul.tipoBeneficio li.par {
+  background-color: #d6d6d6;
+}
+.costos .columnaAnual .columnaAnual-content {
+  border: 1px solid #7dcd40;
+  border-radius: 7px;
+}
+.costos .columnaAnual .columnaAnual-content .columnaAnual-title {
+  background-color: #7dcd40;
+  border-radius: 2px;
+}
+.costos .columnaAnual .columnaAnual-content .columnaAnual-title p {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 0rem;
+}
+.costos .columnaAnual .columnaAnual-content .columnaAnual-header {
+  border-bottom: 1px solid #ababab;
+}
+.costos .columnaAnual .columnaAnual-content .columnaAnual-header .columnaAnual-detalle .columnaAnual-costo {
+  margin-top: -2.7rem;
+  margin-bottom: -2.8rem;
+  display: flex;
+  align-items: center;
+  padding: 0px 3rem;
+}
+.costos .columnaAnual .columnaAnual-content .columnaAnual-header .columnaAnual-detalle .columnaAnual-costo p {
+  color: #7dcd40;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-right: 0.3rem;
+}
+.costos .columnaAnual .columnaAnual-content .columnaAnual-header .columnaAnual-detalle p.columnaAnual-currency {
+  margin-bottom: -0.4rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+.costos .columnaAnual .columnaAnual-content .columnaAnual-header .columnaAnual-detalle p.columnaAnual-subtitle {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #656565;
+}
+.costos .columnaAnual .columnaAnual-content .columnaAnual-row {
+  border-bottom: 1px solid #ababab;
+  padding-top: 1rem;
+  padding-bottom: 0.72rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.costos .columnaAnual .columnaAnual-content .columnaAnual-row span.yes {
+  color: #7dcd40;
+}
+.costos .columnaAnual .columnaAnual-content .columnaAnual-row.par {
+  background-color: #d6d6d6;
+}
+.costos .columnaMensual {
+  margin-left: 0.5rem;
+  width: 12rem;
+}
+.costos .columnaMensual .columnaMensual-content {
+  border: 1px solid #ababab;
+  border-radius: 7px;
+}
+.costos .columnaMensual .columnaMensual-content .columnaMensual-title {
+  background-color: #6b3467;
+  border-radius: 2px;
+}
+.costos .columnaMensual .columnaMensual-content .columnaMensual-title p {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 0rem;
+}
+.costos .columnaMensual .columnaMensual-content .columnaMensual-header {
+  border-bottom: 1px solid #ababab;
+}
+.costos .columnaMensual .columnaMensual-content .columnaMensual-header .columnaMensual-detalle .columnaMensual-costo {
+  margin-top: -2.7rem;
+  margin-bottom: -2.8rem;
+  display: flex;
+  align-items: center;
+  padding: 0px 3rem;
+}
+.costos .columnaMensual .columnaMensual-content .columnaMensual-header .columnaMensual-detalle .columnaMensual-costo p {
+  color: #6b3467;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-right: 0.3rem;
+}
+.costos .columnaMensual .columnaMensual-content .columnaMensual-header .columnaMensual-detalle p.columnaMensual-currency {
+  margin-bottom: -0.4rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+.costos .columnaMensual .columnaMensual-content .columnaMensual-header .columnaMensual-detalle p.columnaMensual-subtitle {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #656565;
+}
+.costos .columnaMensual .columnaMensual-content .columnaMensual-row {
+  border-bottom: 1px solid #ababab;
+  padding-top: 1rem;
+  padding-bottom: 0.72rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.costos .columnaMensual .columnaMensual-content .columnaMensual-row span.yes {
+  color: #6b3467;
+}
+.costos .columnaMensual .columnaMensual-content .columnaMensual-row span.no {
+  color: #FF4842;
+}
+.costos .columnaMensual .columnaMensual-content .columnaMensual-row.par {
+  background-color: #d6d6d6;
+}
+.costos .columnaDiaria {
+  margin-left: 0.5rem;
+  width: 12rem;
+}
+.costos .columnaDiaria .columnaDiaria-content {
+  border: 1px solid #ababab;
+  border-radius: 7px;
+}
+.costos .columnaDiaria .columnaDiaria-content .columnaDiaria-title {
+  background-color: #6b3467;
+  border-radius: 2px;
+}
+.costos .columnaDiaria .columnaDiaria-content .columnaDiaria-title p {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 0rem;
+}
+.costos .columnaDiaria .columnaDiaria-content .columnaDiaria-header {
+  border-bottom: 1px solid #ababab;
+}
+.costos .columnaDiaria .columnaDiaria-content .columnaDiaria-header .columnaDiaria-detalle .columnaDiaria-costo {
+  margin-top: -2.7rem;
+  margin-bottom: -2.8rem;
+  display: flex;
+  align-items: center;
+  padding: 0px 4rem;
+}
+.costos .columnaDiaria .columnaDiaria-content .columnaDiaria-header .columnaDiaria-detalle .columnaDiaria-costo p {
+  color: #6b3467;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-right: 0.3rem;
+}
+.costos .columnaDiaria .columnaDiaria-content .columnaDiaria-header .columnaDiaria-detalle p.columnaDiaria-currency {
+  margin-bottom: -0.4rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+.costos .columnaDiaria .columnaDiaria-content .columnaDiaria-header .columnaDiaria-detalle p.columnaDiaria-subtitle {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #656565;
+}
+.costos .columnaDiaria .columnaDiaria-content .columnaDiaria-row {
+  border-bottom: 1px solid #ababab;
+  padding-top: 1rem;
+  padding-bottom: 0.72rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.costos .columnaDiaria .columnaDiaria-content .columnaDiaria-row span.yes {
+  color: #6b3467;
+}
+.costos .columnaDiaria .columnaDiaria-content .columnaDiaria-row span.no {
+  color: #FF4842;
+}
+.costos .columnaDiaria .columnaDiaria-content .columnaDiaria-row.par {
+  background-color: #d6d6d6;
+}

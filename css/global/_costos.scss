@@ -1,0 +1,234 @@
+.costos{
+  p.precio{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  img.banderaLogo{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+  }
+  .tiposPlanes{
+    display: flex;
+    position: relative;
+    left: 5rem;
+    .beneficios{
+      margin-top: 3.5rem;
+      .beneficioDescripcion{
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding-left: 1rem;
+        color: #6b3467;
+      }
+      ul.tipoBeneficio{
+        padding-left: 0rem !important;
+        li.beneficio{
+          display: block;
+          border-bottom: 1px solid #ababab;
+          padding-top: 0.4rem;
+          p.beneficioText{
+            padding-left: 1rem;
+            padding-right: 1rem;
+          }
+        }
+        li.par{
+          background-color: #d6d6d6;
+        }
+      }
+    }
+  }
+  .columnaAnual{
+    .columnaAnual-content{
+      border: 1px solid #7dcd40;
+      border-radius: 7px;
+      .columnaAnual-title{
+        background-color: #7dcd40;
+        border-radius: 2px;
+        p{
+          color: white;
+          text-align: center;
+          font-size: 1.2rem;
+          font-weight: 600;
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+          margin-top: 0rem;
+        }
+      }
+      .columnaAnual-header{
+        border-bottom: 1px solid #ababab;
+        .columnaAnual-detalle{
+          .columnaAnual-costo{
+            margin-top: -2.7rem;
+            margin-bottom: -2.8rem;
+            display: flex;
+            align-items: center;
+            padding: 0px 3rem;
+            p{
+              color: #7dcd40;
+              font-size: 2rem;
+              font-weight: 600;
+              margin-right: 0.3rem;
+            }
+          }
+          p.columnaAnual-currency{
+            margin-bottom: -0.4rem;
+            text-align: center;
+            font-size: 0.8rem;
+            font-weight: bolder;
+          }
+          p.columnaAnual-subtitle{
+            font-size: 0.8rem;
+            text-align: center;
+            color: #656565;
+          }
+        }
+      }
+      .columnaAnual-row{
+        border-bottom: 1px solid #ababab;
+        padding-top: 1rem;
+        padding-bottom: 0.72rem;
+        font-size: 1.5rem;
+        text-align: center;
+        span.yes{
+          color: #7dcd40;
+        }
+      }
+      .columnaAnual-row.par{
+        background-color: #d6d6d6;
+      }
+    }
+  }
+  .columnaMensual{
+    margin-left: 0.5rem;
+    width: 12rem;
+    .columnaMensual-content{
+      border: 1px solid #ababab;
+      border-radius: 7px;
+      .columnaMensual-title{
+        background-color: #6b3467;
+        border-radius: 2px;
+        p{
+          color: white;
+          text-align: center;
+          font-size: 1.2rem;
+          font-weight: 600;
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+          margin-top: 0rem;
+        }
+      }
+      .columnaMensual-header{
+        border-bottom: 1px solid #ababab;
+        .columnaMensual-detalle{
+          .columnaMensual-costo{
+            margin-top: -2.7rem;
+            margin-bottom: -2.8rem;
+            display: flex;
+            align-items: center;
+            padding: 0px 3rem;
+            p{
+              color: #6b3467;
+              font-size: 2rem;
+              font-weight: 600;
+              margin-right: 0.3rem;
+            }
+          }
+          p.columnaMensual-currency{
+            margin-bottom: -0.4rem;
+            text-align: center;
+            font-size: 0.8rem;
+            font-weight: bolder;
+          }
+          p.columnaMensual-subtitle{
+            font-size: 0.8rem;
+            text-align: center;
+            color: #656565;
+          }
+        }
+      }
+      .columnaMensual-row{
+        border-bottom: 1px solid #ababab;
+        padding-top: 1rem;
+        padding-bottom: 0.72rem;
+        font-size: 1.5rem;
+        text-align: center;
+        span.yes{
+          color: #6b3467;
+        }
+        span.no{
+          color: #FF4842;
+        }
+      }
+      .columnaMensual-row.par{
+        background-color: #d6d6d6;
+      }
+    }
+  }
+  .columnaDiaria{
+    margin-left: 0.5rem;
+    width: 12rem;
+    .columnaDiaria-content{
+      border: 1px solid #ababab;
+      border-radius: 7px;
+      .columnaDiaria-title{
+        background-color: #6b3467;
+        border-radius: 2px;
+        p{
+          color: white;
+          text-align: center;
+          font-size: 1.2rem;
+          font-weight: 600;
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+          margin-top: 0rem;
+        }
+      }
+      .columnaDiaria-header{
+        border-bottom: 1px solid #ababab;
+        .columnaDiaria-detalle{
+          .columnaDiaria-costo{
+            margin-top: -2.7rem;
+            margin-bottom: -2.8rem;
+            display: flex;
+            align-items: center;
+            padding: 0px 4rem;
+            p{
+              color: #6b3467;
+              font-size: 2rem;
+              font-weight: 600;
+              margin-right: 0.3rem;
+            }
+          }
+          p.columnaDiaria-currency{
+            margin-bottom: -0.4rem;
+            text-align: center;
+            font-size: 0.8rem;
+            font-weight: bolder;
+          }
+          p.columnaDiaria-subtitle{
+            font-size: 0.8rem;
+            text-align: center;
+            color: #656565;
+          }
+        }
+      }
+      .columnaDiaria-row{
+        border-bottom: 1px solid #ababab;
+        padding-top: 1rem;
+        padding-bottom: 0.72rem;
+        font-size: 1.5rem;
+        text-align: center;
+        span.yes{
+          color: #6b3467;
+        }
+        span.no{
+          color: #FF4842;
+        }
+      }
+      .columnaDiaria-row.par{
+        background-color: #d6d6d6;
+      }
+    }
+  }
+}
