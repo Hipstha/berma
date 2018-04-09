@@ -23,3 +23,52 @@
   height: 25rem;
   object-fit: cover;
 }
+
+.presentacionMaestro .titulo {
+  font-size: 3rem;
+}
+
+.maestro {
+  height: 20rem;
+  border-bottom: 1px solid grey;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.maestro .impar {
+  display: inline-flex !important;
+  position: relative;
+  left: 25rem;
+}
+.maestro .content-maestro {
+  display: flex;
+  align-items: center;
+}
+.maestro .content-maestro .imagenMaestro {
+  width: 18rem;
+  height: 18rem;
+  object-fit: cover;
+  margin-right: 2rem;
+  border-radius: 50%;
+}
+.maestro .content-maestro .datosMaestro {
+  position: relative;
+  bottom: 1rem;
+}
+.maestro .content-maestro .datosMaestro .nombreMaestro {
+  font-size: 2rem;
+  margin-bottom: -4rem;
+  position: relative;
+  bottom: 2rem;
+}
+.maestro .content-maestro .datosMaestro .profesionMaestro {
+  font-size: 1.3rem;
+  margin-bottom: 0rem;
+}
+.maestro .content-maestro .datosMaestro .otrosDatos {
+  font-size: 1.3rem;
+  margin-bottom: -1rem;
+  font-weight: 600;
+}
+.maestro .content-maestro .datosMaestro .otrosDatos .dato {
+  font-weight: 400;
+}
