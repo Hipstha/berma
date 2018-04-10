@@ -2,6 +2,12 @@
 .autorNoticia {
   float: right;
 }
+.reNoticia{
+  text-decoration: none;
+}
+.noticiaSummary{
+  color: black;
+}
 .autorNoticia .descripcion {
   display: inline-block;
   margin-bottom: -1rem;
