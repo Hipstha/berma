@@ -40,6 +40,7 @@ header{
   border-top: 5px solid #7dcd40;
 }
 .btnLogin{
+  display: none;
   border: 0;
   background-color: #F58225;
   font-size: 14px;
